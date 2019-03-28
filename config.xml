@@ -23,7 +23,6 @@
 	<preference name="fullscreen" value="true"/>
 	<preference name="android-installLocation" value="auto"/>	
 	<preference name="permissions" value="INTERNET"/>
-	    
 	<!-- Plugins -->
 	<plugin name="cordova-plugin-device" spec="~1.1.4"/>
 	<plugin name="cordova-plugin-vibration" spec="~2.1.3"/>
