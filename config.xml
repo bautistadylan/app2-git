@@ -5,13 +5,13 @@
 	 id ="com.phonegap.com.app2"
 	 version ="1.0.0">
 	 
-	 <name> app2-Especialidad Tecnico en  Programacion</name>
+	 <name> app2-Especialidad Tecnico en  Programación</name>
 	 
 	 <description>
-	   Aplicacion que muestra informacion sobre la especialidad de Tecnico en Programacion CBTis
+	   Aplicacion que muestra información sobre la especialidad de Técnico en Programación CBTis
 	  </description>
 	   
-	  <author  href="https://build.phonegap.com" email="bautistagarciadylan@gmail.com">
+	  <author href="https://build.phonegap.com" email="bautistagarciadylan@gmail.com">
 	     Dylan Bautista Garcia
     	</author>
 		
@@ -20,7 +20,7 @@
 	<!-- <preference name="orientation"    value="portrait"/>
 	<preference name="orientation"       value=landscape"/> -->
 	<preference name="target-device"    value="universal"/>
-	<preference name="fullsscreen"     value="true"/>
+	<preference name="fullscreen"     value="true"/>
 	<preference name="android-installLocation"     value="auto"/>	
 	<preference name="permissions"     value="INTERNET"/>
 	    
@@ -32,12 +32,11 @@
 	<!--Para accesar a paginas en internet-->
 	<allow-intent href="https://*/*"/>
 	<acces origin="https://*/*">
-	<allow-intent href="https://*/*">
-	<acces origin="https://*/*"/>
+	<allow-intent href="http://*/*">
+	<acces origin="http://*/*"/>
 	<plugin name="cordova-plugin-whitelist" source="npm"/>
 	
 	<!-- Colocar icono app -->
-	
 	<icon src="res/android/mdpi.png"/>
 	
 	</widget>
